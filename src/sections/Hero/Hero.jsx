@@ -39,9 +39,9 @@ function Hero() {
            </h1>
            <h2>FrontEnd Developer</h2>
            <span>
-            <a href='https://twitter.com/' target='_blank'> <img src={twitterIcon} alt="Twitter Icon" /></a>
-            <a href='https://github.com/' target='_blank'> <img src={githubIcon} alt="Github Icon" /></a>
-            <a href='https://Linkedin.com/' target='_blank'> <img src={linkedinIcon} alt="LinkedIn Icon" /></a>
+            <a href='https://x.com/AanandPiyu35604' target='_blank'> <img src={twitterIcon} alt="Twitter Icon" /></a>
+            <a href='https://github.com/piyushaanand' target='_blank'> <img src={githubIcon} alt="Github Icon" /></a>
+            <a href='https://www.linkedin.com/in/piyush-aanand-0800a9252/' target='_blank'> <img src={linkedinIcon} alt="LinkedIn Icon" /></a>
             </span>
             <p className={styles.description}>With a passion for developing modern React web apps for commercial buisness
             </p>
