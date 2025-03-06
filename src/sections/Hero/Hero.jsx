@@ -9,6 +9,7 @@ import githubDark from '../../assets/github-dark.svg'
 import linkedinLight from '../../assets/linkedin-light.svg'
 import linkedinDark from '../../assets/linkedin-dark.svg'
 import CV from '../../assets/cv.pdf'
+import CV2 from '../../assets/cv2.pdf.pdf'
 import { useTheme } from '../../common/ThemeContext'
 
 
@@ -37,7 +38,7 @@ function Hero() {
            <h1>
             Piyush<br />Aanand
            </h1>
-           <h2>FrontEnd Developer</h2>
+           <h2>Java Developer</h2>
            <span>
             <a href='https://x.com/AanandPiyu35604' target='_blank'> <img src={twitterIcon} alt="Twitter Icon" /></a>
             <a href='https://github.com/piyushaanand' target='_blank'> <img src={githubIcon} alt="Github Icon" /></a>
@@ -45,7 +46,7 @@ function Hero() {
             </span>
             <p className={styles.description}>With a passion for developing modern React web apps for commercial buisness
             </p>
-            <a href={CV} download>
+            <a href={CV2} download>
                 <button className='hover' >Resume</button>
             </a>
         </div>
